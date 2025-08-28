@@ -1,7 +1,7 @@
 {
     "name": "talib/php-smart-sentry",
     "description": "Smart package for sentry",
-    "version": "0.1.0",
+    "version": "1.0.0",
     "type": "library",
     "license": "Apache-2.0",
     "autoload": {
@@ -17,7 +17,9 @@
     ],
     "minimum-stability": "dev",
     "require": {
-        "php": ">=7.1.0",
-        "ext-json": "*"
+        "php": ">=7.4.0",
+        "ext-json": "*",
+        "ext-http": "*",
+        "guzzlehttp/guzzle": "^7.0"
     }
 }
