@@ -1,6 +1,7 @@
 {
     "name": "talib/php-smart-sentry",
     "description": "Smart package for sentry",
+    "version": "0.1.0",
     "type": "library",
     "license": "Apache-2.0",
     "autoload": {
